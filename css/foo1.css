@@ -15,7 +15,7 @@ body {
 	padding: 0.5em;
 }
 
-.column1, .column2, .column3 {
+.column1, .column2, .column3, .column4{
 	border: 1px solid #665544;
 	background-color: #efefef;
 	width: 47%;
@@ -24,9 +24,10 @@ body {
 	padding: 0.2em;
 }
 
-.column2 {
+.column2, .column4 {
 	margin-right: 0%;
 }
+
 
 li {
 	display: inline;
@@ -34,7 +35,6 @@ li {
 }
 
 #feature1 {
-	height: 10em;
 	margin-bottom: 1em;
 }
 
@@ -43,8 +43,13 @@ li {
 	margin-bottom: 1em;
 }
 
-.article {
+.column1, .column2 {
 	height: 20em;
+	margin-bottom: 1em;
+}
+
+.column3, .column4 {
+	height: 30em;
 	margin-bottom: 1em;
 }
 
