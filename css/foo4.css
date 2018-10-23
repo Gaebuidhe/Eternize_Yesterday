@@ -7,7 +7,7 @@ body {
 	overflow: auto;
 }
 
-#nav, #feature1, #feature2, #footer {
+#nav, #feature1, #footer {
 	border: 1px solid #665544;
 	background-color: #efefef;
 	margin: 1%;
@@ -15,7 +15,7 @@ body {
 	padding: 0.5em;
 }
 
-.column1, .column2, .column3, .column4, .column5, .column6{
+.column1, .column2, .column3 {
 	border: 1px solid #665544;
 	background-color: #efefef;
 	width: 47%;
@@ -24,10 +24,9 @@ body {
 	padding: 0.2em;
 }
 
-.column2, .column4, .column6{
+.column2 {
 	margin-right: 0%;
 }
-
 
 li {
 	display: inline;
@@ -39,23 +38,17 @@ li {
 }
 
 #feature2 {
-	height: 15em;
+	border: 1px solid #665544;
+	background-color: #efefef;
+	margin: 1%;
+	text-align: left;
+	padding: 0.5em;
 	margin-bottom: 1em;
 }
 
-.column1, .column2 {
-	height: 20em;
-	margin-bottom: 1em;
-}
-
-.column3, .column4 {
+.article {
 	height: 30em;
 	margin-bottom: 1em;
-}
-
-.column5, .column6{
-	height: 12em;
-	margin-bottom:1em;
 }
 
 table, th, td {
